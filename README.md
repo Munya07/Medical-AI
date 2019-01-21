@@ -8,8 +8,18 @@
 + convolutional layers of deep networks are used to map input space to feature space
 
 ## feature extraction
-+ minimal preprocessing, just resizing, pixel color normalization, and augmentation 
-+ base layers of densenet121, densenet201, resnet50, InceptionResNetV2, vgg16, vgg19, xception, mobilenet-v2, nasnet-mobile are used with global average pooling
+minimal preprocessing, just resizing, pixel color normalization, and augmentation
+
+base convolutional layers of below networks are used with global average pooling
++ densenet121, 
++ densenet201, 
++ resnet50, 
++ InceptionResNetV2, 
++ vgg16, 
++ vgg19,
++ xception, 
++ mobilenet-v2, 
++ nasnet-mobile
 + Resulting feature spaces are up to 2000 element tensors
 
 ## training and test
